@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "patches": [
+    {
+      "name": "Voice Over Translation",
+      "description": "Перевод видео на другие языки (API Yandex VOT): кнопка в плеере, настройки.",
+      "use": true,
+      "dependencies": ["BytecodePatch", "ResourcePatch"],
+      "compatiblePackages": {
+        "com.google.android.youtube": ["20.40.45", "20.05.46", "21.13.164"]
+      },
+      "options": []
+    }
+  ]
+}
